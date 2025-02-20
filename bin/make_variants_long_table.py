@@ -310,17 +310,40 @@ def snpsift_to_table(snpsift_file):
                 table_2.iloc[i, j] = str(table_2.iloc[i, j]).split(",")[1]
 
     table = pd.concat([table_1, table_2], ignore_index=True, sort=False)
-
+    
+    table_firstpass = pd.DataFrame(columns=['CHR', 'POS', 'FWD_R', 'REV_R', 'FWD', 'REV'])
+ 
+ 
     for i in range(len(table)):
         percentage = table.iloc[i, 5].split(",")
         if percentage[0] != '.' and int(percentage[0]) + int(percentage[2]) != 0 and int(percentage[1]) + int(percentage[3]) != 0:
-            total_forward = int(percentage[0]) + int(percentage[2])
-            total_rev = int(percentage[1]) + int(percentage[3])
-            total = total_forward + total_rev
-            percent_variant = (int(percentage[2]) + int(percentage[3])) / total
-            forward = int(percentage[2]) / total_forward
-            rev = int(percentage[3]) / total_rev
-            table.iloc[i, 5] = str(percent_variant) + ',' + str(forward) + ',' + str(rev)
+            new_row = {
+                'CHR': table.iloc[i, 0],
+                'POS': table.iloc[i, 1],
+                # 'GENE': table.iloc[i, 7],
+                'FWD_R': int(percentage[0]),
+                'REV_R': int(percentage[1]),
+                'FWD': int(percentage[2]),
+                'REV': int(percentage[3])
+            }
+            table_firstpass = pd.concat([table_firstpass, pd.DataFrame([new_row])], ignore_index=True)
+
+    table_firstpass = table_firstpass.drop_duplicates(keep='first')
+    table_firstpass = table_firstpass.groupby(['CHR', 'POS', 'FWD_R', 'REV_R']).sum().reset_index()
+    
+    for i in range(len(table)):
+            percentage = table.iloc[i, 5].split(",")
+            if percentage[0] != '.' and int(percentage[0]) + int(percentage[2]) != 0 and int(percentage[1]) + int(percentage[3]) != 0:
+                total_forward = table_firstpass[table_firstpass['POS'] == table.iloc[i, 1]]['FWD_R'].sum() + table_firstpass[table_firstpass['POS'] == table.iloc[i, 1]]['FWD'].sum()
+                
+                total_rev = table_firstpass[table_firstpass['POS'] == table.iloc[i, 1]]['REV_R'].sum() +table_firstpass[table_firstpass['POS'] == table.iloc[i, 1]]['REV'].sum()
+                
+                total = total_forward + total_rev
+                percent_variant = (int(percentage[2]) + int(percentage[3])) / total
+                forward = int(percentage[2]) / total_forward
+                rev = int(percentage[3]) / total_rev
+                table.iloc[i, 5] = str(percent_variant) + ',' + str(forward) + ',' + str(rev)                
+
 
     per_variant = []
     per_fwd = []
