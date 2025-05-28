@@ -150,7 +150,7 @@ The pipline repots for the included sample sheet are as follows:
 
 ### Running the Pipeline on cloud Platforms
 
-For detailed information regarding secured Nextflow deployment on MS Azure and infrastructure-as-code see [this article](https://lnkd.in/gabGjJpf). Nextflow can be run on many other cloud platforms, including AWS and GCP. For more information, see the [Nextflow documentation](https://www.nextflow.io/docs/latest/executor.html).
+For detailed information regarding secured Nextflow deployment on MS Azure and infrastructure-as-code see [this article](https://techcommunity.microsoft.com/blog/healthcareandlifesciencesblog/secured-nextflow-deployment-on-azure/4408850). Nextflow can be run on many other cloud platforms, including AWS and GCP. For more information, see the [Nextflow documentation](https://www.nextflow.io/docs/latest/executor.html).
 
 ## Citations
 
