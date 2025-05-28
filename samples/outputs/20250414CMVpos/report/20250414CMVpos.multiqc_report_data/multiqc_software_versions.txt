@@ -1,0 +1,16 @@
+Sample	Nextflow	ph-metagenomics	minimap2	snpsift	samtools	snpeff	medaka	lofreq	fastcat	mosdepth	python	yaml	fastp	fastqc	bcftools	vcflib
+FastQC														0.11.9		
+Workflow	24.10.6	1.0.0														
+alignment			2.17-r941													
+annotation_extractfields				4.3												
+bam_generation					1.17											
+call_annotation						5.1d										
+call_deletions							1.4.4									
+call_snvs								2.1.5								
+combine_fastq									0.10.2							
+coverage										0.3.3						
+dumpsoftwareversions											3.11.4	6.0				
+fastp													0.23.2			
+variants_long_table											3.9.9					
+vcf_concat															1.17	
+vcf_uniq																1.0.3

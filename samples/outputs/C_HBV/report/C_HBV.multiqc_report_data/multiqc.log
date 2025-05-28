@@ -1,0 +1,15 @@
+[2025-05-27 22:37:26,620] multiqc.config                                     [INFO   ]  Loading config settings from: multiqc_config.yml
+[2025-05-27 22:37:27,069] multiqc.core.version_check                         [WARNING]  MultiQC Version v1.29 now available!
+[2025-05-27 22:37:27,069] multiqc.core.file_search                           [INFO   ]  Search path: /home/mahdi/Repos/Viro-Metagenomics/.work/5d/b0ec0129531df297026b1fa48743db
+[2025-05-27 22:37:27,069] multiqc.core.file_search                           [INFO   ]  Excluding modules 'snpeff', 'samtools', 'fastp', 'mosdepth'
+[2025-05-27 22:37:27,206] multiqc.modules.custom_content.custom_content      [WARNING]  Not able to parse custom data in C_HBV_insertion_deletion_table.csv
+[2025-05-27 22:37:27,804] multiqc.modules.custom_content.custom_content      [INFO   ]  seq_freq: Found 4 samples (PlotType.TABLE)
+[2025-05-27 22:37:27,810] multiqc.modules.custom_content.custom_content      [INFO   ]  varlist: Found 17 samples (PlotType.TABLE)
+[2025-05-27 22:37:27,815] multiqc.modules.custom_content.custom_content      [INFO   ]  varlist2: Found 14 samples (PlotType.TABLE)
+[2025-05-27 22:37:27,818] multiqc.modules.custom_content.custom_content      [INFO   ]  drug_resistance: Found 6 samples (PlotType.TABLE)
+[2025-05-27 22:37:27,821] multiqc.modules.custom_content.custom_content      [INFO   ]  multichangecodons: Found 2 samples (PlotType.TABLE)
+[2025-05-27 22:37:27,824] multiqc.modules.custom_content.custom_content      [INFO   ]  variantsbyfunction: Found 2 samples (PlotType.TABLE)
+[2025-05-27 22:37:27,827] multiqc.modules.custom_content.custom_content      [INFO   ]  amplicon_heatmap_table: Found 1 samples (PlotType.TABLE)
+[2025-05-27 22:37:27,858] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 1 reports
+[2025-05-27 22:37:28,076] multiqc.core.file_search                           [INFO   ]  Excluding modules 'snpeff', 'samtools', 'fastp', 'mosdepth'
+[2025-05-27 22:37:28,077] multiqc.core.write_results                         [INFO   ]  Rendering plots. Export plots to formats png, svg, pdf is requested, so it might take a while. To disable plot export, set `export_plots: false` in config, or remove the `--export-plots` command line flag

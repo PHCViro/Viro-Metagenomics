@@ -1,0 +1,20 @@
+##fileformat=VCFv4.1
+##FILTER=<ID=PASS,Description="All filters passed">
+##medaka_version=1.4.4
+##contig=<ID=NC_006273.2>
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Medaka genotype.">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Medaka genotype quality score">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Depth of reads at pos">
+##INFO=<ID=DPS,Number=2,Type=Integer,Description="Depth of reads at pos by strand (fwd, rev)">
+##INFO=<ID=DPSP,Number=1,Type=Integer,Description="Depth of reads spanning pos +-25">
+##INFO=<ID=SR,Number=.,Type=Integer,Description="Depth of spanning reads by strand which best align to each allele (ref fwd, ref rev, alt1 fwd, alt1 rev, etc.)">
+##INFO=<ID=AR,Number=2,Type=Integer,Description="Depth of ambiguous spanning reads by strand which align equally well to all alleles (fwd, rev)">
+##INFO=<ID=SC,Number=.,Type=Integer,Description="Total alignment score to each allele of spanning reads by strand (ref fwd, ref rev, alt1 fwd, alt1 rev, etc.) aligned with parasail: match 5, mismatch -4, open 5, extend 3">
+##bcftools_isecVersion=1.19+htslib-1.19
+##bcftools_isecCommand=isec -p /home/mahdi/Repos/Viro-Metagenomics/samples/outputs/20250414CMVpos/variants/bcftools-comparison /home/mahdi/Repos/Viro-Metagenomics/samples/outputs/20250414CMVpos/variants/20250414CMVpos.snv.vcf.gz /home/mahdi/Repos/Viro-Metagenomics/samples/outputs/20250414CMVpos/variants/20250414CMVpos.indel.vcf.gz; Date=Tue May 27 18:52:18 2025
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE
+NC_006273.2	78854	.	A	G	43.922	PASS	DP=1081;DPS=600,481	GT:GQ	1:44
+NC_006273.2	80081	.	G	A	37.512	PASS	DP=1047;DPS=586,461	GT:GQ	1:38
+NC_006273.2	80359	.	G	A	13.129	PASS	DP=3321;DPS=1629,1692	GT:GQ	1:13
+NC_006273.2	80459	.	G	A	39.258	PASS	DP=3321;DPS=1628,1693	GT:GQ	1:39
+NC_006273.2	86570	.	C	A	19.725	PASS	DP=3868;DPS=1961,1907	GT:GQ	1:20

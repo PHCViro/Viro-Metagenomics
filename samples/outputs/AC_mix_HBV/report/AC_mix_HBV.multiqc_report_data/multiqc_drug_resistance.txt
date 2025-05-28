@@ -1,0 +1,8 @@
+Sample	GENE	AA	%Var	RES	Lamivudine	Adefovir	Entecavir	Tenofovir	Reference
+0.0	RT_domain	p.M204I	0.1425688628796287	Yes	R		R		EASL J.Hepatology2017 vol67
+1.0	RT_domain	p.M204V	0.055741021750126456	Yes	R		R		EASL J.Hepatology2017 vol67
+2.0	RT_domain	p.I63V	0.8902997502081599	Yes				R	doi.org/10.12688/wellcomeopenres.15992.1
+3.0	RT_domain	p.V173L	0.14200465257408718	Yes	R		R		EASL J.Hepatology2017 vol67
+4.0	RT_domain	p.L180M	0.055113160100586756	Yes	R		R		EASL J.Hepatology2017 vol67
+5.0	RT_domain	p.D263E	0.19871019750100766	Yes				R	doi.org/10.12688/wellcomeopenres.15992.1
+6.0	RT_domain	p.Q267L	0.2008825383483925	Yes				R	doi.org/10.12688/wellcomeopenres.15992.1

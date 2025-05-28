@@ -1,0 +1,25 @@
+##fileformat=VCFv4.1
+##medaka_version=1.4.4
+##contig=<ID=A_X51970_A_azure>
+##medaka_version=1.4.4
+##contig=<ID=A_X51970_A_azure,length=3221>
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Medaka genotype.">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Medaka genotype quality score">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Depth of reads at pos">
+##INFO=<ID=DPS,Number=2,Type=Integer,Description="Depth of reads at pos by strand (fwd, rev)">
+##INFO=<ID=DPSP,Number=1,Type=Integer,Description="Depth of reads spanning pos +-25">
+##INFO=<ID=SR,Number=.,Type=Integer,Description="Depth of spanning reads by strand which best align to each allele (ref fwd, ref rev, alt1 fwd, alt1 rev, etc.)">
+##INFO=<ID=AR,Number=2,Type=Integer,Description="Depth of ambiguous spanning reads by strand which align equally well to all alleles (fwd, rev)">
+##INFO=<ID=SC,Number=.,Type=Integer,Description="Total alignment score to each allele of spanning reads by strand (ref fwd, ref rev, alt1 fwd, alt1 rev, etc.) aligned with parasail: match 5, mismatch -4, open 5, extend 3">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE
+A_X51970_A_azure	315	.	GA	AG	80.722	PASS	DP=8044;DPS=3555,4489	GT:GQ	1:81
+A_X51970_A_azure	486	.	T	C	57.476	PASS	DP=8064;DPS=3563,4501	GT:GQ	1:57
+A_X51970_A_azure	785	.	T	C	52.161	PASS	DP=8063;DPS=3558,4505	GT:GQ	1:52
+A_X51970_A_azure	885	.	T	C	21.98	PASS	DP=8063;DPS=3558,4505	GT:GQ	1:22
+A_X51970_A_azure	903	.	A	G	21.405	PASS	DP=8063;DPS=3558,4505	GT:GQ	1:21
+A_X51970_A_azure	915	.	G	A	19.858	PASS	DP=8062;DPS=3558,4504	GT:GQ	1:20
+A_X51970_A_azure	933	.	A	G	22.844	PASS	DP=8062;DPS=3558,4504	GT:GQ	1:23
+A_X51970_A_azure	963	.	T	A	57.476	PASS	DP=8060;DPS=3557,4503	GT:GQ	1:57
+A_X51970_A_azure	996	.	A	G	19.296	PASS	DP=8058;DPS=3556,4502	GT:GQ	1:19
+A_X51970_A_azure	1026	.	T	A	18.895	PASS	DP=8057;DPS=3556,4501	GT:GQ	1:19
+A_X51970_A_azure	1059	.	C	T	44.658	PASS	DP=8056;DPS=3556,4500	GT:GQ	1:45

@@ -1,0 +1,2 @@
+Sample	RT_domain	core
+A_HBV	9913.11	0.0

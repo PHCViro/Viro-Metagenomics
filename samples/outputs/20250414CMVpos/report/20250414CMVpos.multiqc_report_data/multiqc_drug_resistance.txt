@@ -1,0 +1,6 @@
+Sample	GENE	AA	%Var	RES	Cidofovir	Foscarnet	Ganciclovir	Maribavir	Letermovir	Reference
+0.0	UL97	p.M460I	0.02916210295728368	Yes			R			https://www.eurofins-viracor.com/media/pgonfbxk/mm-0273-rev8-1121cmv-avr-mutations-references-final.pdf
+1.0	UL97	p.A591V	0.5570175438596491	Yes			R			https://www.eurofins-viracor.com/media/pgonfbxk/mm-0273-rev8-1121cmv-avr-mutations-references-final.pdf
+2.0	UL97	p.E362D	0.32126293257224403	Yes			R			https://www.eurofins-viracor.com/media/pgonfbxk/mm-0273-rev8-1121cmv-avr-mutations-references-final.pdf
+3.0	UL54	p.T503I	0.2362135063403126	Yes	R		R			https://www.eurofins-viracor.com/media/pgonfbxk/mm-0273-rev8-1121cmv-avr-mutations-references-final.pdf
+4.0	UL54	p.P522S	0.7245562130177515	Yes	R		R			https://www.eurofins-viracor.com/media/pgonfbxk/mm-0273-rev8-1121cmv-avr-mutations-references-final.pdf

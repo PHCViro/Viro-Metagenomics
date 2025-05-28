@@ -1,0 +1,13 @@
+[2025-05-27 22:37:15,858] multiqc.config                                     [INFO   ]  Loading config settings from: multiqc_config.yml
+[2025-05-27 22:37:16,461] multiqc.core.version_check                         [WARNING]  MultiQC Version v1.29 now available!
+[2025-05-27 22:37:16,461] multiqc.core.file_search                           [INFO   ]  Search path: /home/mahdi/Repos/Viro-Metagenomics/.work/df/3144c89d25003a47651615ea1223fc
+[2025-05-27 22:37:16,462] multiqc.core.file_search                           [INFO   ]  Excluding modules 'snpeff', 'samtools', 'fastp', 'mosdepth'
+[2025-05-27 22:37:16,550] multiqc.modules.custom_content.custom_content      [WARNING]  Not able to parse custom data in 20250414CMVpos_insertion_deletion_table.csv
+[2025-05-27 22:37:16,550] multiqc.modules.custom_content.custom_content      [WARNING]  Not able to parse custom data in 20250414CMVpos_multichange_codons.csv
+[2025-05-27 22:37:17,081] multiqc.modules.custom_content.custom_content      [INFO   ]  varlist: Found 7 samples (PlotType.TABLE)
+[2025-05-27 22:37:17,086] multiqc.modules.custom_content.custom_content      [INFO   ]  drug_resistance: Found 5 samples (PlotType.TABLE)
+[2025-05-27 22:37:17,092] multiqc.modules.custom_content.custom_content      [INFO   ]  variantsbyfunction: Found 3 samples (PlotType.TABLE)
+[2025-05-27 22:37:17,097] multiqc.modules.custom_content.custom_content      [INFO   ]  amplicon_heatmap_table: Found 1 samples (PlotType.TABLE)
+[2025-05-27 22:37:17,131] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 1 reports
+[2025-05-27 22:37:17,333] multiqc.core.file_search                           [INFO   ]  Excluding modules 'snpeff', 'samtools', 'fastp', 'mosdepth'
+[2025-05-27 22:37:17,334] multiqc.core.write_results                         [INFO   ]  Rendering plots. Export plots to formats png, svg, pdf is requested, so it might take a while. To disable plot export, set `export_plots: false` in config, or remove the `--export-plots` command line flag

@@ -1,0 +1,2 @@
+Sample	GENE	AA	%Var	RES	Lamivudine	Adefovir	Entecavir	Tenofovir	Reference
+0.0	RT_domain	p.I63V	0.8916379580331977	Yes				R	doi.org/10.12688/wellcomeopenres.15992.1

@@ -1,0 +1,3 @@
+﻿Type	Count	Percent
+MISSENSE	61	47.3%
+SILENT	68	52.7%

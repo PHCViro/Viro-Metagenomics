@@ -1,0 +1,42 @@
+##fileformat=VCFv4.1
+##FILTER=<ID=PASS,Description="All filters passed">
+##medaka_version=1.4.4
+##contig=<ID=C_AB014381_C_azure>
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Medaka genotype.">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Medaka genotype quality score">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Depth of reads at pos">
+##INFO=<ID=DPS,Number=2,Type=Integer,Description="Depth of reads at pos by strand (fwd, rev)">
+##INFO=<ID=DPSP,Number=1,Type=Integer,Description="Depth of reads spanning pos +-25">
+##INFO=<ID=SR,Number=.,Type=Integer,Description="Depth of spanning reads by strand which best align to each allele (ref fwd, ref rev, alt1 fwd, alt1 rev, etc.)">
+##INFO=<ID=AR,Number=2,Type=Integer,Description="Depth of ambiguous spanning reads by strand which align equally well to all alleles (fwd, rev)">
+##INFO=<ID=SC,Number=.,Type=Integer,Description="Total alignment score to each allele of spanning reads by strand (ref fwd, ref rev, alt1 fwd, alt1 rev, etc.) aligned with parasail: match 5, mismatch -4, open 5, extend 3">
+##bcftools_isecVersion=1.19+htslib-1.19
+##bcftools_isecCommand=isec -p /home/mahdi/Repos/Viro-Metagenomics/samples/outputs/C_HBV/variants/bcftools-comparison /home/mahdi/Repos/Viro-Metagenomics/samples/outputs/C_HBV/variants/C_HBV.snv.vcf.gz /home/mahdi/Repos/Viro-Metagenomics/samples/outputs/C_HBV/variants/C_HBV.indel.vcf.gz; Date=Tue May 27 18:52:21 2025
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE
+C_AB014381_C_azure	352	.	T	A	20.303	PASS	DP=8047;DPS=3643,4404	GT:GQ	1:20
+C_AB014381_C_azure	373	.	C	T	44.199	PASS	DP=8047;DPS=3643,4404	GT:GQ	1:44
+C_AB014381_C_azure	454	.	C	T	48.481	PASS	DP=8053;DPS=3648,4405	GT:GQ	1:48
+C_AB014381_C_azure	505	.	C	T	44.719	PASS	DP=8053;DPS=3648,4405	GT:GQ	1:45
+C_AB014381_C_azure	531	.	T	C	52.247	PASS	DP=8053;DPS=3648,4405	GT:GQ	1:52
+C_AB014381_C_azure	544	.	C	A	48.409	PASS	DP=8053;DPS=3648,4405	GT:GQ	1:48
+C_AB014381_C_azure	558	.	C	A	16.221	PASS	DP=8053;DPS=3648,4405	GT:GQ	1:16
+C_AB014381_C_azure	592	.	C	T	46.636	PASS	DP=8053;DPS=3648,4405	GT:GQ	1:47
+C_AB014381_C_azure	619	.	C	T	46.141	PASS	DP=8053;DPS=3648,4405	GT:GQ	1:46
+C_AB014381_C_azure	621	.	G	T	49.694	PASS	DP=8053;DPS=3648,4405	GT:GQ	1:50
+C_AB014381_C_azure	636	.	T	A	18.272	PASS	DP=8051;DPS=3646,4405	GT:GQ	1:18
+C_AB014381_C_azure	646	.	G	T	11.07	PASS	DP=8049;DPS=3643,4406	GT:GQ	1:11
+C_AB014381_C_azure	741	.	G	T	8.566	PASS	DP=8049;DPS=3640,4409	GT:GQ	1:9
+C_AB014381_C_azure	796	.	G	T	46.589	PASS	DP=8051;DPS=3640,4411	GT:GQ	1:47
+C_AB014381_C_azure	799	.	G	A	46.856	PASS	DP=8051;DPS=3640,4411	GT:GQ	1:47
+C_AB014381_C_azure	861	.	T	C	51.678	PASS	DP=8051;DPS=3640,4411	GT:GQ	1:52
+C_AB014381_C_azure	876	.	C	T	49.842	PASS	DP=8051;DPS=3640,4411	GT:GQ	1:50
+C_AB014381_C_azure	888	.	A	G	46.248	PASS	DP=8051;DPS=3640,4411	GT:GQ	1:46
+C_AB014381_C_azure	894	.	A	G	45.037	PASS	DP=8051;DPS=3640,4411	GT:GQ	1:45
+C_AB014381_C_azure	912	.	G	A	51.041	PASS	DP=8051;DPS=3640,4411	GT:GQ	1:51
+C_AB014381_C_azure	915	.	A	G	50.046	PASS	DP=8051;DPS=3640,4411	GT:GQ	1:50
+C_AB014381_C_azure	918	.	C	A	51.313	PASS	DP=8051;DPS=3640,4411	GT:GQ	1:51
+C_AB014381_C_azure	921	.	T	C	51.913	PASS	DP=8051;DPS=3640,4411	GT:GQ	1:52
+C_AB014381_C_azure	939	.	G	A	50.724	PASS	DP=8051;DPS=3640,4411	GT:GQ	1:51
+C_AB014381_C_azure	957	.	G	T	45.453	PASS	DP=8051;DPS=3640,4411	GT:GQ	1:45
+C_AB014381_C_azure	1062	.	A	G	48.984	PASS	DP=8042;DPS=3635,4407	GT:GQ	1:49
+C_AB014381_C_azure	1078	.	T	G	50.724	PASS	DP=8034;DPS=3631,4403	GT:GQ	1:51

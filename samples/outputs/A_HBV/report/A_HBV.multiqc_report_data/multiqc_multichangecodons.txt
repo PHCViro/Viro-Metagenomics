@@ -1,0 +1,2 @@
+Sample	Gene	Bases
+I63	RT_domain	316; 317; 318

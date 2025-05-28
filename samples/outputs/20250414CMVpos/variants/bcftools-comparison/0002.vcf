@@ -1,0 +1,25 @@
+##fileformat=VCFv4.0
+##FILTER=<ID=PASS,Description="All filters passed">
+##fileDate=20250527
+##source=lofreq call -B --no-default-filter -f cmv_merlin.fa --no-default-filter -r NC_006273.2:78843-79153 -o /tmp/lofreq2_call_parallelgibnl4ii/0.vcf.gz 20250414CMVpos.bam 
+##reference=cmv_merlin.fa
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_snvqual_49,Description="Minimum SNV Quality (Phred) 49">
+##FILTER=<ID=min_indelqual_20,Description="Minimum Indel Quality (Phred) 20">
+##FILTER=<ID=min_snvqual_61,Description="Minimum SNV Quality (Phred) 61">
+##FILTER=<ID=min_af_0.015000,Description="Minimum allele frequency 0.015000">
+##contig=<ID=NC_006273.2>
+##bcftools_isecVersion=1.19+htslib-1.19
+##bcftools_isecCommand=isec -p /home/mahdi/Repos/Viro-Metagenomics/samples/outputs/20250414CMVpos/variants/bcftools-comparison /home/mahdi/Repos/Viro-Metagenomics/samples/outputs/20250414CMVpos/variants/20250414CMVpos.snv.vcf.gz /home/mahdi/Repos/Viro-Metagenomics/samples/outputs/20250414CMVpos/variants/20250414CMVpos.indel.vcf.gz; Date=Tue May 27 18:52:18 2025
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+NC_006273.2	78854	.	A	G	32631	PASS	DP=1091;AF=0.978002;SB=0;DP4=5,4,594,475
+NC_006273.2	80081	.	G	A	36579	PASS	DP=1052;AF=0.992395;SB=0;DP4=2,1,586,462
+NC_006273.2	80359	.	G	A	49314	PASS	DP=3404;AF=0.717979;SB=2;DP4=451,480,1212,1237
+NC_006273.2	80459	.	G	A	49314	PASS	DP=3404;AF=0.913043;SB=3;DP4=74,90,1519,1605
+NC_006273.2	86570	.	C	A	49314	PASS	DP=3958;AF=0.795099;SB=10;DP4=327,299,1540,1637

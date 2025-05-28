@@ -1,0 +1,8 @@
+﻿Type	Count	Percent
+downstream_gene_variant	33	4.5%
+intron_variant	164	22.2%
+missense_variant	63	8.5%
+splice_region_variant	1	0.1%
+stop_retained_variant	1	0.1%
+synonymous_variant	67	9.1%
+upstream_gene_variant	410	55.5%

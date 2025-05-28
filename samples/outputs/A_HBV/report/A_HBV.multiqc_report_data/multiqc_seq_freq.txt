@@ -1,0 +1,2 @@
+Sample	reads	Percentage
+A_X02763_A_azure	10018.0	1.0

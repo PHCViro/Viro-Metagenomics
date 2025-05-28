@@ -1,0 +1,2 @@
+Sample	fastqc-percent_duplicates	fastqc-percent_gc	fastqc-avg_sequence_length	fastqc-median_sequence_length	fastqc-percent_fails	fastqc-total_sequences
+C_HBV	54.64	44.0	863.2765	867	60.0	10.0

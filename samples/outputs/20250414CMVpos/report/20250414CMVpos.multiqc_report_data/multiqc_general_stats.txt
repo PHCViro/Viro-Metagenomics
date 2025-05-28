@@ -1,0 +1,2 @@
+Sample	fastqc-percent_duplicates	fastqc-percent_gc	fastqc-avg_sequence_length	fastqc-median_sequence_length	fastqc-percent_fails	fastqc-total_sequences
+20250414CMVpos	81.28221789040502	58.0	699.6924626380767	649	40.0	23.085

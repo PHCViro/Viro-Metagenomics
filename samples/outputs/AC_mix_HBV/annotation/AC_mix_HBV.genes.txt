@@ -1,0 +1,11 @@
+# The following table is formatted as tab separated values. 
+#GeneName	GeneId	TranscriptId	BioType	variants_impact_LOW	variants_impact_MODERATE	variants_impact_MODIFIER	variants_effect_downstream_gene_variant	variants_effect_intron_variant	variants_effect_missense_variant	variants_effect_splice_region_variant	variants_effect_stop_retained_variant	variants_effect_synonymous_variant	variants_effect_upstream_gene_variant
+PreS1	HBVORF01	HBVORF01	protein_coding	0	0	82	0	0	0	0	0	0	82
+RNase H domain	HBVORF04	HBVORF04	protein_coding	0	0	82	0	0	0	0	0	0	82
+RT domain	HBVORF13	HBVORF13	protein_coding	48	34	0	0	0	34	0	0	48	0
+RT domain	HBVORF13	HBVORF13.2	protein_coding	0	0	82	0	82	0	0	0	0	0
+SAg	HBVORF21	HBVORF21	protein_coding	20	29	33	33	0	29	1	1	19	0
+X	HBVORF03	HBVORF03	protein_coding	0	0	82	0	0	0	0	0	0	82
+core	HBVORF12	HBVORF12	protein_coding	0	0	82	0	0	0	0	0	0	82
+preS2	HBVORF11	HBVORF11	protein_coding	0	0	82	0	82	0	0	0	0	0
+precore	HBVORF02	HBVORF02	protein_coding	0	0	82	0	0	0	0	0	0	82

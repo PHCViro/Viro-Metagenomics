@@ -1,0 +1,31 @@
+##fileformat=VCFv4.0
+##FILTER=<ID=PASS,Description="All filters passed">
+##fileDate=20250527
+##source=lofreq call -B --no-default-filter -f C_AB014381_C_edit.fasta --no-default-filter -r C_AB014381_C_azure:280-381 -o /tmp/lofreq2_call_parallelkl9wqwk2/0.vcf.gz C_HBV.bam 
+##reference=C_AB014381_C_edit.fasta
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_snvqual_44,Description="Minimum SNV Quality (Phred) 44">
+##FILTER=<ID=min_indelqual_20,Description="Minimum Indel Quality (Phred) 20">
+##FILTER=<ID=min_snvqual_54,Description="Minimum SNV Quality (Phred) 54">
+##FILTER=<ID=min_af_0.015000,Description="Minimum allele frequency 0.015000">
+##contig=<ID=C_AB014381_C_azure>
+##bcftools_isecVersion=1.19+htslib-1.19
+##bcftools_isecCommand=isec -p /home/mahdi/Repos/Viro-Metagenomics/samples/outputs/C_HBV/variants/bcftools-comparison /home/mahdi/Repos/Viro-Metagenomics/samples/outputs/C_HBV/variants/C_HBV.snv.vcf.gz /home/mahdi/Repos/Viro-Metagenomics/samples/outputs/C_HBV/variants/C_HBV.indel.vcf.gz; Date=Tue May 27 18:52:21 2025
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+C_AB014381_C_azure	293	.	A	G	19271	PASS	DP=9975;AF=0.253434;SB=5;DP4=3735,3524,1308,1299
+C_AB014381_C_azure	296	.	T	C	263	PASS	DP=9975;AF=0.041003;SB=1229;DP4=5076,4413,7,422
+C_AB014381_C_azure	367	.	C	T	28333	PASS	DP=9996;AF=0.269208;SB=1;DP4=3705,3482,1386,1323
+C_AB014381_C_azure	554	.	T	A	49314	PASS	DP=10001;AF=0.689331;SB=14;DP4=1376,1376,3646,3317
+C_AB014381_C_azure	555	.	T	A	49314	PASS	DP=10001;AF=0.69893;SB=10;DP4=1389,1381,3680,3384
+C_AB014381_C_azure	556	.	T	A	49314	PASS	DP=10001;AF=0.70293;SB=26;DP4=1370,1438,3694,3386
+C_AB014381_C_azure	581	.	T	A	45489	PASS	DP=10001;AF=0.389961;SB=6;DP4=3003,2877,1971,1987
+C_AB014381_C_azure	633	.	G	A	40366	PASS	DP=9987;AF=0.391609;SB=3;DP4=2960,2764,2080,1882
+C_AB014381_C_azure	650	.	G	A	2127	PASS	DP=9983;AF=0.081038;SB=10;DP4=4586,4394,409,444
+C_AB014381_C_azure	667	.	C	A	18588	PASS	DP=9979;AF=0.25714;SB=4;DP4=3722,3553,1319,1310
+C_AB014381_C_azure	739	.	A	G	17224	PASS	DP=9985;AF=0.268703;SB=1;DP4=3520,3529,1362,1338

@@ -1,0 +1,13 @@
+﻿Type	Count	Percent
+disruptive_inframe_deletion	2	0.0%
+disruptive_inframe_insertion	1	0.0%
+downstream_gene_variant	2146	49.8%
+frameshift_variant	31	0.7%
+intergenic_region	27	0.6%
+missense_variant	736	17.1%
+splice_region_variant	2	0.0%
+start_lost	3	0.1%
+stop_gained	42	1.0%
+stop_lost	2	0.0%
+synonymous_variant	116	2.7%
+upstream_gene_variant	1205	27.9%

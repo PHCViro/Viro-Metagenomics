@@ -1,0 +1,5 @@
+sample_id,input_file,genome
+20250414CMVpos,samples/input_fastq/20250414CMVpos.fastq.gz,cmv
+A_HBV,samples/input_fastq/A_HBV.fastq.gz,hbv
+AC_mix_HBV,samples/input_fastq/AC_mix_HBV.fastq.gz,hbv
+C_HBV,samples/input_fastq/C_HBV.fastq.gz,hbv

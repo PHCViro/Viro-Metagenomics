@@ -1,0 +1,5 @@
+﻿Type	Count	Percent
+DOWNSTREAM	8	5.9%
+EXON	22	16.3%
+INTRON	30	22.2%
+UPSTREAM	75	55.6%

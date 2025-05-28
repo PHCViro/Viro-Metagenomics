@@ -1,0 +1,6 @@
+﻿Type	Count	Percent
+downstream_gene_variant	12	3.4%
+intron_variant	78	22.2%
+missense_variant	35	10.0%
+synonymous_variant	31	8.8%
+upstream_gene_variant	195	55.6%

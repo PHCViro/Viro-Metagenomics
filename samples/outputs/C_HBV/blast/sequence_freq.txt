@@ -1,0 +1,5 @@
+subtype reads  Percentage
+C_AB014381_C_azure 10036 0.999602
+E_X75657_E_azure 2 0.000199203
+H_AY090460_H_azure 1 9.96016e-05
+B_D00330_B_azure 1 9.96016e-05

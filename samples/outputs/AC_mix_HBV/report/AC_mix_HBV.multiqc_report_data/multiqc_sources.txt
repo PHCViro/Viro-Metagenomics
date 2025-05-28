@@ -1,0 +1,2 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	AC_mix_HBV	/home/mahdi/Repos/Viro-Metagenomics/.work/91/6e8f10c1cece9f295841f9ef348c6e/AC_mix_HBV_fastqc.zip

@@ -1,0 +1,3 @@
+Sample	Count	Percent
+MISSENSE	33.0	51.6%
+SILENT	31.0	48.4%

@@ -1,0 +1,4 @@
+Sample	Gene	Bases
+FY134	SAg	554; 555; 556
+I63	RT_domain	316; 317; 318
+M204	RT_domain	739; 741

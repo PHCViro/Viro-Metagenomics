@@ -1,0 +1,4 @@
+﻿Type	Count	Percent
+LOW	68	9.2%
+MODERATE	63	8.5%
+MODIFIER	607	82.2%

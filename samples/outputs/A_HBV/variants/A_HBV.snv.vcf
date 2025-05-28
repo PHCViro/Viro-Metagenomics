@@ -1,0 +1,31 @@
+##fileformat=VCFv4.0
+##fileDate=20250527
+##source=lofreq call -B --no-default-filter -f A_X02763_A_edit.fasta --no-default-filter -r A_X51970_A_azure:280-381 -o /tmp/lofreq2_call_parallel2n23skso/0.vcf.gz A_HBV.bam 
+##reference=A_X02763_A_edit.fasta
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_snvqual_44,Description="Minimum SNV Quality (Phred) 44">
+##FILTER=<ID=min_indelqual_20,Description="Minimum Indel Quality (Phred) 20">
+##FILTER=<ID=min_snvqual_54,Description="Minimum SNV Quality (Phred) 54">
+##FILTER=<ID=min_indelqual_20,Description="Minimum Indel Quality (Phred) 20">
+##FILTER=<ID=min_af_0.015000,Description="Minimum allele frequency 0.015000">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+A_X51970_A_azure	315	.	G	A	49314	PASS	DP=9970;AF=0.849850;SB=33;DP4=317,243,4175,4372
+A_X51970_A_azure	316	.	A	G	49314	PASS	DP=9970;AF=0.849749;SB=2;DP4=503,535,4219,4322
+A_X51970_A_azure	317	.	T	G	1093	PASS	DP=9973;AF=0.060062;SB=21;DP4=4474,4564,277,353
+A_X51970_A_azure	318	.	C	T	997	PASS	DP=9974;AF=0.060758;SB=7;DP4=4432,4598,298,347
+A_X51970_A_azure	486	.	T	C	49314	PASS	DP=10000;AF=0.941700;SB=5;DP4=109,128,4686,4787
+A_X51970_A_azure	785	.	T	C	49314	PASS	DP=9996;AF=0.905962;SB=199;DP4=481,252,4387,4784
+A_X51970_A_azure	885	.	T	C	49314	PASS	DP=9997;AF=0.970591;SB=14;DP4=53,79,4861,4914
+A_X51970_A_azure	903	.	A	G	49314	PASS	DP=9996;AF=0.901060;SB=49;DP4=108,50,4603,4437
+A_X51970_A_azure	915	.	G	A	49314	PASS	DP=9995;AF=0.948974;SB=75;DP4=118,49,4717,4881
+A_X51970_A_azure	933	.	A	G	49314	PASS	DP=9995;AF=0.948474;SB=64;DP4=204,114,4739,4829
+A_X51970_A_azure	963	.	T	A	49314	PASS	DP=9992;AF=0.950060;SB=233;DP4=47,198,4884,4702
+A_X51970_A_azure	996	.	A	G	49314	PASS	DP=9990;AF=0.987788;SB=3;DP4=19,25,4922,4967
+A_X51970_A_azure	1026	.	T	A	49314	PASS	DP=9989;AF=0.963260;SB=7;DP4=62,80,4835,4947
+A_X51970_A_azure	1059	.	C	T	49314	PASS	DP=9988;AF=0.985182;SB=0;DP4=38,40,4900,4985
